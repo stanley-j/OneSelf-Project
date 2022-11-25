@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-24T18:01:52 IST" name="Default suite" finished-at="2022-11-24T18:02:12 IST" duration-ms="19549">
+    <groups>
+    </groups>
+    <test started-at="2022-11-24T18:01:52 IST" name="Default test" finished-at="2022-11-24T18:02:12 IST" duration-ms="19549">
+      <class name="SignInModule._03_valid_username_invalid_password">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:SignInModule._03_valid_username_invalid_password@50eac852]" started-at="2022-11-24T18:01:52 IST" name="browserLaunch" finished-at="2022-11-24T18:02:10 IST" duration-ms="18276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="signIn1()[pri:0, instance:SignInModule._03_valid_username_invalid_password@50eac852]" started-at="2022-11-24T18:02:10 IST" name="signIn1" finished-at="2022-11-24T18:02:12 IST" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn1 -->
+      </class> <!-- SignInModule._03_valid_username_invalid_password -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

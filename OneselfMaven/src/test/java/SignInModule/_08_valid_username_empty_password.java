@@ -2,13 +2,11 @@ package SignInModule;
 
 import org.datadriven.DataDriven;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class _08_valid_username_empty_password {
+public class _08_valid_username_empty_password extends _01_valid_username_valid_password{
 
-	public static WebDriver driver;
+	/*public static WebDriver driver;
 
 	public static void browserLaunch() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\stanleyathish.j\\eclipse-workspace\\Stephen\\driver\\chromedriver.exe");	
@@ -16,7 +14,7 @@ public class _08_valid_username_empty_password {
 		driver.manage().window().maximize();
 		driver.get("https://oneself-admin-test.optisolbusiness.com");
 
-	}
+	}*/
 
 	public static void signIn1() throws Throwable {
 		WebElement email = driver.findElement(By.xpath("//input[@placeholder='Enter your email']"));
@@ -32,7 +30,7 @@ public class _08_valid_username_empty_password {
 	}
 
 	public static void main(String[] args) throws Throwable {
-    browserLaunch();
+    //browserLaunch();
     signIn1();
     signIn3();
     System.out.println("Successfully throw an exception for valid username and empty password like #Password is required");
